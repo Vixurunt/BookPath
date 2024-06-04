@@ -87,12 +87,14 @@ pip install -r requirements.txt
 运行以下命令启动所有必要的服务：
 ```
 python3 startup.py --all-api
+#Windows命令为python startup.py --all-api
 ```
 
 #### 第二步：启动前端
 在所有服务启动完成后，打开一个新的终端，运行：
 ```
 python3 ui_gradio.py
+#Windows命令为 python ui_gradio.py
 ```
 你应该会在输出中看到：
 ```
@@ -200,12 +202,14 @@ Refer to the official Langchain-Chatchat documentation for details on how to use
 Run the following command to start all necessary services:
 ```
 python3 startup.py --all-api
+#For Windows sys，it should be python startup.py --all-api
 ```
 
 #### Step 2: Launch the Frontend
 After all services have started, open a new terminal and run:
 ```
 python3 ui_gradio.py
+#For Windows sys，it should be python ui_gradio.py
 ```
 You should see the following output:
 ```
