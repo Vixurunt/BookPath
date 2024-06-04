@@ -1,6 +1,6 @@
 ## 书途（BOOKPATH）
 ### 一、简介：
-书途系统由上海交通大学AIUI课程项目组五名成员为图书馆开发的一款创新智能程序，旨在为用户提供精准的图书推荐服务，并规划最优的图书馆内导航路线。本项目基于[Gradio](https://github.com/gradio-app/gradio)以及[Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)进行开发。用户只需输入需求，系统将根据算法推荐相关书籍，并生成一条从当前位置到目标书籍所在位置的最优路径。无论是学生、研究人员，还是书籍爱好者，该系统都能大幅提升寻找和借阅图书的效率，节省时间，提升体验。
+书途系统是由上海交通大学AIUI课程项目组五名成员为图书馆开发的一款创新智能程序，旨在为用户提供精准的图书推荐服务，并规划最优的图书馆内导航路线。本项目基于[Gradio](https://github.com/gradio-app/gradio)以及[Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)进行开发。用户只需输入需求，系统将根据算法推荐相关书籍，并生成一条从当前位置到目标书籍所在位置的最优路径。无论是学生、研究人员，还是书籍爱好者，该系统都能大幅提升寻找和借阅图书的效率，节省时间，提升体验。
 
 主要功能包括：
 1. **智能图书推荐**：根据用户输入的需求，结合大数据和人工智能算法，推荐相关书籍。
