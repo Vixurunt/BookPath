@@ -19,7 +19,7 @@ BookPath/
     ├── library.jpg # 图书馆的彩色地图
     ├── library_gray.jpg # 图书馆的灰度地图，用于导航
     ├── books.json # 书的配置文件
-    ├── location.json # 书架位置的配置文件
+    └── location.json # 书架位置的配置文件
 ├── README.md # 项目简介文件
 ├── start_up.py # Longchain_Chatchat启动脚本
 ├── setup_books.py # 图书配置脚本
@@ -136,7 +136,7 @@ BookPath/
     ├── library.jpg         # Colored map of the library
     ├── library_gray.jpg    # Grayscale map of the library for navigation
     ├── books.json          # Book configuration file
-    ├── location.json       # Bookshelf location configuration file
+    └── location.json       # Bookshelf location configuration file
 ├── README.md               # Project description file
 ├── start_up.py             # Longchain_Chatchat startup script
 ├── setup_books.py          # Book setup script
