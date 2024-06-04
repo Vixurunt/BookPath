@@ -124,7 +124,7 @@ Key features include:
 1. **Intelligent Book Recommendations**: Suggests relevant books based on user input, utilizing big data and AI algorithms.
 2. **Optimal Route Planning**: Plans the best route from the user’s current location to the desired book's location.
 3. **Real-Time Navigation**(May be added in future): Provides real-time navigation within the library to ensure users can quickly locate the needed books.
-
+<br><br>
 ### Ⅱ Project Directory Structure:
 ```
 BookPath/
@@ -158,7 +158,7 @@ BookPath/
 7. **setup_books.py**: Book setup script, used to configure and update book information.
 8. **setup_location.py**: Location setup script, used to configure and update bookshelf location information.
 9. **ui_gradio.py**: Gradio frontend startup script, used to launch the graphical user interface and provide user interaction.
-
+<br><br>
 ### Ⅲ Configuration steps：
 
 To set up the BookPath project, follow the steps below:
@@ -195,7 +195,7 @@ Use `setup_map.py` to convert `Library/library.jpg` into a binary map for naviga
 
 #### Step 4: Model and API Configuration
 Refer to the official Langchain-Chatchat documentation for details on how to use the model and APIs. If you need to run large models locally, place them in the `/model` directory and update the relevant settings in `model_config.py`.
-
+<br><br>
 ### Ⅳ Running the Project
 
 #### Step 1: Start All APIs
@@ -216,7 +216,7 @@ You should see the following output:
 Running on URL: 127.0.0.1:9001
 ```
 Open the URL in your web browser to access the application.
-
+<br><br>
 ### Ⅴ Notes
 
 1. **Compatibility Issues:**
