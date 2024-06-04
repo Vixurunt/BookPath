@@ -12,9 +12,10 @@ Key features include:
 ```
 BookPath/
 │
-├── configs/                # Model and its configurations
+├── configs/                # Model configurations
 ├── server/                 # Model server
 ├── knowledge_base/         # Knowledge base
+├── model/                  # Models (we did not upload them because they are too large)
 ├── Library/                # Library-related configuration files
     ├── library.jpg         # Colored map of the library
     ├── library_gray.jpg    # Grayscale map of the library for navigation
@@ -100,6 +101,14 @@ Running on URL: 127.0.0.1:9001
 ```
 Open the URL in your web browser to access the application.
 <br><br>
+
+Note: You can also try
+```
+python3 startup_neo.py --all-api --webui
+```
+
+which will work as well.
+
 ### Ⅴ Notes
 
 1. **Compatibility Issues:**
@@ -129,6 +138,7 @@ BookPath/
 ├── configs # 模型及模型的一些设置
 ├── server # 模型服务器
 ├── knowledge_base # 知识库
+├── model # 模型文件（由于模型文件过大，我们并未上传）
 ├── Library # 关于图书馆的一些配置文件
     ├── library.jpg # 图书馆的彩色地图
     ├── library_gray.jpg # 图书馆的灰度地图，用于导航
@@ -215,6 +225,12 @@ python3 ui_gradio.py
 Running on URL: 127.0.0.1:9001
 ```
 在浏览器中打开该 URL 即可访问应用。
+
+注：你也可以尝试运行：
+```
+python3 startup_neo.py --all-api --webui
+```
+
 <br><br>
 ### 五、注意事项
 
