@@ -6,6 +6,8 @@ import heapq
 from dialogue_gradio import dialogue_page_gradio
 from webui_pages.utils import *
 
+import argparse
+
 api = ApiRequest(base_url=api_address())
 def model(input_string):
     global api
@@ -143,6 +145,20 @@ def prepare_location(img_path):
     return locations
 
 if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "--gradio_port",
+        type=int,
+        help="",
+        dest="gradio_port",
+        default=9004
+    )
+
+    args = parser.parse_args()
+
+
     print("=================================================")
     # dialogue_page_gradio(api, "给我推荐一本书，要求：动漫，并给出推荐理由。你的回答格式为：\"书名：{}\n推荐理由：{}\"")
     global img, img_gray
@@ -172,5 +188,5 @@ if __name__ == '__main__':
         image_output.select(on_click, inputs=[gr.State(locations), recommended_book_output], outputs=image_output)
 
     # 启动 Gradio 应用
-        demo.queue().launch(share=True, server_port=9004)
+        demo.queue().launch(share=True, server_port=args.gradio_port)
 
