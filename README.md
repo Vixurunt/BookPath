@@ -22,6 +22,7 @@ BookPath/
     ├── books.json          # Book configuration file
     └── location.json       # Bookshelf location configuration file
 ├── README.md               # Project description file
+├── README_zh.md            # Project description file in Chinese
 ├── start_up.py             # Longchain_Chatchat startup script
 ├── setup_books.py          # Book setup script
 ├── setup_location.py       # Location setup script
